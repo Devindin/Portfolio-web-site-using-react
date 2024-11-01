@@ -1,6 +1,6 @@
 {
     "rewrites": [
-      { "source": "/(.*)", "destination": "/" }
+        { "source": "/videos/(.*)", "destination": "/src/assets/videos/$1" }
     ],
     "headers": [
       {
